@@ -358,7 +358,7 @@ body {
     background-color: #f09400; }
   .btn--icon-call {
     padding-left: 46px;
-    background-image: url("../../img/icon-phone.svg");
+    background-image: url("../img/icon-phone.svg");
     background-position: 17px center;
     background-repeat: no-repeat;
     background-size: 20px 20px; }
@@ -380,7 +380,7 @@ body {
     display: block;
     height: 6px;
     margin-top: 15px;
-    background: url("../../img/products/line.svg") center center no-repeat;
+    background: url("../img/products/line.svg") center center no-repeat;
     background-size: 46px 6px; }
 
 .page-header__wrapper {
@@ -423,7 +423,7 @@ body {
   position: relative;
   z-index: 1;
   color: #ffffff;
-  background: #414239 url("../../img/intro/bg.jpg") top center no-repeat;
+  background: #414239 url("../img/intro/bg.jpg") top center no-repeat;
   background-size: cover; }
   .intro::before {
     content: '';
@@ -557,17 +557,17 @@ body {
   padding-left: 63px;
   margin-bottom: 80px; }
   .advantages__item--prod {
-    background: url("../../img/advantages/icon-1.png") left center no-repeat; }
+    background: url("../img/advantages/icon-1.png") left center no-repeat; }
   .advantages__item--free {
-    background: url("../../img/advantages/icon-2.png") left center no-repeat; }
+    background: url("../img/advantages/icon-2.png") left center no-repeat; }
   .advantages__item--stability {
-    background: url("../../img/advantages/icon-3.png") left center no-repeat; }
+    background: url("../img/advantages/icon-3.png") left center no-repeat; }
   .advantages__item--cover {
-    background: url("../../img/advantages/icon-4.png") left center no-repeat; }
+    background: url("../img/advantages/icon-4.png") left center no-repeat; }
   .advantages__item--printing {
-    background: url("../../img/advantages/icon-5.png") left center no-repeat; }
+    background: url("../img/advantages/icon-5.png") left center no-repeat; }
   .advantages__item--supplements {
-    background: url("../../img/advantages/icon-6.png") left center no-repeat; }
+    background: url("../img/advantages/icon-6.png") left center no-repeat; }
 
 .advantages__title {
   margin: 0;
@@ -626,7 +626,7 @@ body {
   position: relative;
   z-index: 1;
   color: #ffffff;
-  background: #08102b url("../../img/order/bg.jpg") top center;
+  background: #08102b url("../img/order/bg.jpg") top center;
   background-size: cover; }
   .order::before {
     content: '';
