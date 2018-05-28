@@ -750,7 +750,7 @@ body {
     opacity: 1; }
 
 .reviews {
-  padding: 67px 0; }
+  padding-bottom: 67px; }
 
 .reviews__wrapper {
   width: 320px;
