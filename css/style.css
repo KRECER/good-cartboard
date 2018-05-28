@@ -814,15 +814,15 @@ body {
   margin-bottom: 5px; }
 
 .map__address--icon-geo {
-  background: url("../../img/map/icon-geo.svg") top left no-repeat;
+  background: url("../img/map/icon-geo.svg") top left no-repeat;
   background-size: 30px 25px; }
 
 .map__telephones--icon-phone {
-  background: url("../../img/map/icon-phone.svg") top left no-repeat;
+  background: url("../img/map/icon-phone.svg") top left no-repeat;
   background-size: 30px 25px; }
 
 .map__email--icon-email {
-  background: url("../../img/map/icon-email.svg") top left no-repeat;
+  background: url("../img/map/icon-email.svg") top left no-repeat;
   background-size: 30px 25px; }
 
 .map iframe {
