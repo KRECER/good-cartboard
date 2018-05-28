@@ -749,6 +749,9 @@ body {
   .clients__item:hover {
     opacity: 1; }
 
+.reviews {
+  padding: 67px 0; }
+
 .reviews__wrapper {
   width: 320px;
   padding: 0 15px;
