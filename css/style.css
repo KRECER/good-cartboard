@@ -3487,7 +3487,8 @@ img {
 
 .map__wrapper {
   width: 320px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
   @media (min-width: 768px) {
     .map__wrapper {
       width: 640px; } }
@@ -3496,6 +3497,10 @@ img {
       width: 970px; } }
 
 .map__contacts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
   display: inline-block;
   padding: 10px 33px;
   margin-top: 74px;
@@ -3535,15 +3540,17 @@ img {
     padding: 20px 0;
     background-color: #fff; }
   .map__contacts {
+    position: static;
     display: block;
     width: 100%;
     margin: 0; }
   .map__title {
-    position: inherit;
+    position: static;
     clip: auto;
     width: auto;
     height: auto;
-    margin: auto; } }
+    margin: auto;
+    text-align: center; } }
 
 .page-footer {
   color: #ffffff;
