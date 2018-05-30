@@ -3001,11 +3001,30 @@ img {
       width: 970px; } }
 
 .intro__img {
-  width: 374px;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-right: 30px; }
+  .intro__img::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    width: 300px;
+    height: 300px;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid #A9B1B1;
+    border-radius: 100%; }
+
+@keyframes move {
+  0% {
+    margin-bottom: -100px;
+    opacity: 0; }
+  100% {
+    margin-bottom: 0;
+    opacity: 1; } }
 
 .intro__title {
   margin: 0;
@@ -3145,7 +3164,7 @@ img {
 .advantages__item {
   width: 293px;
   padding-left: 63px;
-  margin-bottom: 80px; }
+  margin-bottom: 70px; }
   .advantages__item--prod {
     background: url("../img/advantages/icon-1.png") left center no-repeat; }
   .advantages__item--free {
@@ -3542,8 +3561,7 @@ img {
   transform: translateX(-50%);
   z-index: 3;
   display: none;
-  width: 740px;
-  padding-bottom: 60px; }
+  width: 740px; }
 
 .modal__wrapper {
   padding-bottom: 20px; }

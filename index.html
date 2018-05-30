@@ -54,8 +54,7 @@
 		<div class="page-header__wrapper">
 			<div class="page-header__logo">
 				<picture>
-					<source srcset="img/logotype-desktop.svg" media="(min-width: 1200px)">
-					<!-- <source srcset="img/logo-tablet.svg" media="(min-width: 768px)"> -->
+					<source srcset="img/logotype-desktop.svg" media="(min-width: 768px)">
 					<img src="img/logotype-mobile.png" width="191" height="61" alt="barbershop">
 				</picture>
 			</div>
@@ -88,7 +87,7 @@
 						<span class="intro__form-subtext">Образцы упаковки бесплатно!</span>
 						<div class="intro__form-row">
 							<input class="intro__form-input" type="tel" name="phone" placeholder="Введите номер телефона">
-							<button class="btn">Оставить заявку</button>
+							<button class="btn wow fadeInOut">Оставить заявку</button>
 						</div>
 						<span class="intro__small-text">*Минимальный заказ 500шт</span>
 					</form>
@@ -115,27 +114,27 @@
 					</ul>
 				</header>
 				<ul class="advantages__list">
-					<li class="advantages__item advantages__item--prod">
+					<li class="advantages__item advantages__item--prod wow fadeInUp" data-wow-delay="0.1s">
 						<h3 class="advantages__title">Производство</h3>
 						<p class="advantages__description">4 технологические линии спо- собны выполнить любой заказ любой сложности</p>
 					</li>
-					<li class="advantages__item advantages__item--free">
+					<li class="advantages__item advantages__item--free wow fadeInUp" data-wow-delay="0.2s">
 						<h3 class="advantages__title">Бесплатные образцы</h3>
 						<p class="advantages__description">Собственная лаборатория кон- тролирует качество на каждом этапе производства</p>
 					</li>
-					<li class="advantages__item advantages__item--stability">
+					<li class="advantages__item advantages__item--stability wow fadeInUp" data-wow-delay="0.3s">
 						<h3 class="advantages__title">Стабильное качество</h3>
 						<p class="advantages__description">4 технологические линии спо- собны выполнить любой заказ любой сложности</p>
 					</li>
-					<li class="advantages__item advantages__item--cover">
+					<li class="advantages__item advantages__item--cover wow fadeInUp" data-wow-delay="0.4s">
 						<h3 class="advantages__title">Страховой запас</h3>
 						<p class="advantages__description">Можем хранить запас гофро- продукции на своих складах и поставлять его партиями</p>
 					</li>
-					<li class="advantages__item advantages__item--printing">
+					<li class="advantages__item advantages__item--printing wow fadeInUp" data-wow-delay="0.5s">
 						<h3 class="advantages__title">Флексопечать</h3>
 						<p class="advantages__description">Возможно нанесение вашего  логотипа, текста или мани- пуляционных знаков</p>
 					</li>
-					<li class="advantages__item advantages__item--supplements">
+					<li class="advantages__item advantages__item--supplements wow fadeInUp" data-wow-delay="0.6s">
 						<h3 class="advantages__title">Гидрофобные добавки</h3>
 						<p class="advantages__description">На производстве реализована технология, которая позволяет гофрокартону стать прочнее</p>
 					</li>
@@ -222,7 +221,7 @@
 		</section>
 		<section class="clients">
 			<div class="clients__wrapper">
-				<h2 class="clients__title section-title">Наши клиенты</h2>
+				<h2 class="clients__title section-title wow fadeIn">Наши клиенты</h2>
 				<ul class="clients__list">
 					<li class="clients__item">
 						<img src="img/clients/img-1.jpg" alt="">
@@ -265,7 +264,7 @@
 		</section>
 		<section class="reviews">
 			<div class="reviews__wrapper">
-				<h2 class="reviews__title section-title">Отзывы о сотрудничестве</h2>
+				<h2 class="reviews__title section-title wow bounceInRight">Отзывы о сотрудничестве</h2>
 				<ul class="reviews__list">
 					<li class="reviews__item">
 						<img src="img/reviews/img-1.jpg" alt="Отзыв 1">
@@ -326,6 +325,10 @@
 	</div>
 	<div class="modal-overlay"></div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/wow-min.js"></script>
+	<script>
+		new WOW().init();
+	 </script>
 	<script src="js/main.js"></script>
 </body>
 </html>
